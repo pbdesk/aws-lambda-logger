@@ -1,4 +1,0 @@
---require test/settings.js
---recursive
---timeout 10s
-test/**/*.test.js

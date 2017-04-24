@@ -1,6 +1,6 @@
 {
   "name": "@pbdesk/aws-lambda-logger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Logger for AWS Lambda with NodeJS",
   "main": "index.js",
   "engines": {
@@ -19,14 +19,5 @@
   "bugs": {
     "url": "https://github.com/pbdesk/aws-lambda-logger/issues"
   },
-  "homepage": "https://github.com/pbdesk/aws-lambda-logger#readme",
-  "devDependencies": {
-    "chai": "3.5.0",
-    "eslint": "3.19.0",
-    "eslint-config-airbnb": "14.1.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.3",
-    "mocha": "3.2.0"
-  }
+  "homepage": "https://github.com/pbdesk/aws-lambda-logger#readme"
 }
