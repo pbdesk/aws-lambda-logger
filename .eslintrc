@@ -1,0 +1,35 @@
+{
+  "extends": "airbnb",
+  "plugins": [ ],
+  "rules": {
+    "brace-style": [
+      "error",
+      "stroustrup"
+    ],
+    "valid-jsdoc": [
+      "error",
+      {
+        "prefer": {
+          "arg": "param",
+          "argument": "param",
+          "return": "returns",
+          "virtual": "abstract"
+        },
+        "preferType": {
+          "object": "Object"
+        },
+        "requireReturn": true,
+        "requireReturnType": true,
+        "requireParamDescription": false,
+        "requireReturnDescription": false
+      }
+    ]
+  },
+  "globals": {
+    "expect": true
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  }
+}
