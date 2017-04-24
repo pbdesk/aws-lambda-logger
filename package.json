@@ -1,8 +1,11 @@
 {
   "name": "@pbdesk/aws-lambda-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Logger for AWS Lambda with NodeJS",
   "main": "index.js",
+  "engines": {
+    "node": ">=6.10"
+  },
   "scripts": {
     "lint": "eslint ./; exit 0",
     "test": "mocha --opts test/mocha.opts"
@@ -11,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/pbdesk/aws-lambda-logger.git"
   },
-  "author": "Pinal Bhatt <self@pbdesk.io> (http://pbdesk.io)",
+  "author": "Pinal Bhatt <self@pbdesk.com> (http://pbdesk.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pbdesk/aws-lambda-logger/issues"
