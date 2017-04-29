@@ -1,6 +1,6 @@
 {
   "name": "@pbdesk/aws-lambda-logger",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Logger for AWS Lambda with NodeJS",
   "main": "index.js",
   "engines": {

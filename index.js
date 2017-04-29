@@ -9,5 +9,5 @@ const setLogger = (level = 'INFO', meta = {}, tags = [], setGlobal = true) => {
 };
 
 module.exports = {
-  set: setLogger,
+  config: setLogger,
 };
