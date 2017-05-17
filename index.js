@@ -1,7 +1,7 @@
 const AWSLambdaLogger = require('./lib/AWSLambdaLogger');
 
-const setLogger = (level = 'INFO', meta = {}, tags = [], setGlobal = true) => {
-  const logger = new AWSLambdaLogger(level, meta, tags);
+const setLogger = (level = 'INFO', tags = [], setGlobal = true) => {
+  const logger = new AWSLambdaLogger(level, tags);
   if (setGlobal === true) {
     global.LOG = logger;
   }
